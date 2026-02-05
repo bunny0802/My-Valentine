@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Love ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layer active" id="layer1">
+  <h1>Muje maaf kardo plz 🥺</h1>
+  <img src="images/baby_sorry.png" class="bg-img">
+  <div class="buttons">
+    <button onclick="goLayer2()">Yes ❤️</button>
+    <button id="noBtn">No 😜</button>
+  </div>
+</div>
+
+<div class="layer" id="layer2">
+  <h1>I Love You 💖</h1>
+  <img src="images/shy_baby.png" class="bg-img">
+  <div class="buttons">
+    <button onclick="finalLayer()">Love You Too 😘</button>
+    <button onclick="showPopup()">Hate You 😡</button>
+  </div>
+</div>
+
+<div class="layer" id="layer3">
+  <div class="popup">
+    <img src="images/baby_request.png">
+    <h2>Please love me na 🥹</h2>
+    <button onclick="finalLayer()">Ok love you too ❤️</button>
+  </div>
+</div>
+
+<div class="layer" id="final">
+  <div class="celebrate">
+    <h1>🎉 Happy Birthday My Love 🎂❤️</h1>
+    <img src="images/couple.jpg" class="couple">
+    <p>You are my world 🌍💞</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
